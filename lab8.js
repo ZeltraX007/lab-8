@@ -23,7 +23,7 @@ app.config(function($routeProvider){
 
 
 app.controller("FirstController",function($scope, $http){
-    $http.get("https://github.com/ZeltraX007/lab-8/blob/913822a794463712ad27c4a279ba5d4e884f9b0f/employee.json")
+    $http.get("https://zeltrax007.github.io/lab-8/employee.json")
     .success(function(response)
     {
         $scope.employee=response.records;
@@ -37,7 +37,7 @@ app.controller("SecondController",function($scope){
 
 app.controller("ThirdController",function($scope, $http){
     // $scope.message="hello from Third";
-    $http.get("https://github.com/ZeltraX007/lab-8/blob/913822a794463712ad27c4a279ba5d4e884f9b0f/employee.json")
+    $http.get("https://zeltrax007.github.io/lab-8/employee.json")
     .success(function(response)
     {
         $scope.employee=response.records;
